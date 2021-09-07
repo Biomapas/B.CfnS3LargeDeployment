@@ -11,7 +11,7 @@ Two types of deployment sources are available:
 
 - `BucketDeploymentSource` - uses another S3 bucket object(-s) as source for the deployment to a destination bucket. 
   Only files up to 5GB are supported due to S3 bucket limitations;
-- `AssetDeploymentSource` - uses `aws-cdk.s3-assets` lib to deploy local files as .zip files to assets bucket from 
+- `AssetDeploymentSource` - uses `aws-cdk.aws-s3-assets` lib to deploy local files as .zip files to assets bucket from 
   which extracted contents are moved to the destination bucket. Asset files more than 2GB in size are not supported.
 
 See "Known limits" sections below for more information on this resource limitations.
