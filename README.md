@@ -99,7 +99,7 @@ app.synth()
 ### Known limits
 
 - `aws_cdk.aws_s3_assets.Asset` supports up to 2GB/asset (limited by NodeJS implementation).
-- S3 bucket supports up to 5GB objects.
+- S3 bucket supports up to 5TB objects.
 
 ### Testing
 
