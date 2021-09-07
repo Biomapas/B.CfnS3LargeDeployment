@@ -40,8 +40,8 @@ setup(
     ],
     author='Matas Gumbinas',
     author_email='matas.gumbinas@biomapas.com',
-    keywords='AWS CDK Lambda Layer Twilio Activity',
-    url='https://github.com/biomapas/B.CfnS3LargeDeploymentActivity.git',
+    keywords='AWS CDK Lambda Layer S3 Deployment',
+    url='https://github.com/Biomapas/B.CfnS3LargeDeployment',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
